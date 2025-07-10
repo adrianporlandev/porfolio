@@ -4,6 +4,7 @@ import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
+import Astro from "./icons/Astro.astro"
 
 const TAGS = {
   NEXT: {
@@ -16,24 +17,21 @@ const TAGS = {
     class: "bg-[#003159] text-white",
     icon: Tailwind,
   },
+  ASTRO: {
+    name: "Astro",
+    class: "bg-black text-white",
+    icon: Astro,
+  },
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: " SoloQChallenge Website ",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
-  },
-  {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
-    description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Es una copia de la página de SoloQChallenge, una página que te permite retarte a ti mismo a subir de rango en el juego League of Legends. La página te permite ver tu progreso y compararlo con el de tus amigos.",
+    link: "https://soloqchallenge.vercel.app/",
+    github: "https://github.com/adrimax11/soloqchallenge",
+    image: "/projects/soloq.webp",
+    tags: [TAGS.TAILWIND],
   },
 ]
 ---
